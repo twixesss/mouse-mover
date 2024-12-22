@@ -1,10 +1,14 @@
-## Mouse Mover
-Simple mouse mover.
+### Mouse Mover for Windows
+This lightweight tool keeps your system active by moving the mouse pointer 1 pixel every 59 seconds.
 
-When activated, Mouse pointer moves 1 pixel in every 59 seconds.
+- Status Indicator:
+The task tray icon reflects the current status:
 
-You can see the status on your tasktray. 
-Red means stopped, green means running. 
+  - 🟢 Green: Running (mouse movement active)
+  - 🔴 Red: Stopped
 
-Do not close the terminal window.
-Just minimize it. Otherwise it stops.
+- Features:
+  - Portable: No installation required.
+  - User-Friendly: No administrative privileges needed.
+
+Perfect for preventing system inactivity, screen lock, or sleep mode during work or presentations.
