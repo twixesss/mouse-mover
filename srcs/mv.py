@@ -4,6 +4,8 @@ import threading
 from pystray import Icon, Menu, MenuItem
 from PIL import Image, ImageDraw
 
+pyautogui.FAILSAFE = False
+
 # マウスを動かすフラグ
 running = True
 icon = None
@@ -12,9 +14,9 @@ def move_mouse():
     global running, icon
     while running:
         x, y = pyautogui.position()
-        pyautogui.moveTo(x + 1, y)
+        pyautogui.moveTo(x + 40, y)
         pyautogui.moveTo(x, y)
-        time.sleep(59)
+        time.sleep(3)
 
 def start_mouse_movement(icon):
     global running

@@ -5,3 +5,4 @@ pyinstaller/
 build/
 dist/
 *.spec
+memo.txt
