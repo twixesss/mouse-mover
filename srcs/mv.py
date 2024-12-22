@@ -14,9 +14,9 @@ def move_mouse():
     global running, icon
     while running:
         x, y = pyautogui.position()
-        pyautogui.moveTo(x + 40, y)
+        pyautogui.moveTo(x + 1, y)
         pyautogui.moveTo(x, y)
-        time.sleep(3)
+        time.sleep(59)
 
 def start_mouse_movement(icon):
     global running
