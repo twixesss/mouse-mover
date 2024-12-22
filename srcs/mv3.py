@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # タスクトレイメニューの作成
     menu = Menu(
         MenuItem("Mouse Mover", None, enabled=False),
-        MenuItem("version 1.1.0", None, enabled=False),
+        MenuItem("version 1.2.0", None, enabled=False),
         MenuItem("Quit", quit_app)
     )
 
