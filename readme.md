@@ -3,9 +3,7 @@ This lightweight tool keeps your system active by moving the mouse pointer 1 pix
 
 - Status Indicator:
 The task tray icon reflects the current status:
-
   - 🟢 Green: Running (mouse movement active)
-  - 🔴 Red: Stopped
 
 - Features:
   - Portable: No installation required.
